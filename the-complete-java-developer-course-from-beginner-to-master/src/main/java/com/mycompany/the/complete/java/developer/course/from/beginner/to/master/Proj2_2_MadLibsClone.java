@@ -75,33 +75,33 @@ public class Proj2_2_MadLibsClone {
         String boysNameSolution;
         String mansNameSolution;
         
-        System.out.println("Enter an adjective:\t");
+        System.out.print("Enter an adjective:\t");
         adjective1Solution = keyboard.nextLine();
         
-        System.out.println("Enter an girl's name:\t");
+        System.out.print("Enter an girl's name:\t");
         girlsNameSolution = keyboard.nextLine();
         
-        System.out.println("Enter another adjective:\t");
+        System.out.print("Enter another adjective:\t");
         adjective2Solution = keyboard.nextLine();
         
         
-        System.out.println("Enter the name of a place:\t");
+        System.out.print("Enter the name of a place:\t");
         placeNameSolution = keyboard.nextLine();
         
-        System.out.println("Enter the name piece of clothing:\t");
+        System.out.print("Enter the name piece of clothing:\t");
         clothingSolution = keyboard.nextLine();
         
-        System.out.println("Enter the name of a hobby:\t");
+        System.out.print("Enter the name of a hobby:\t");
         hobbySolution = keyboard.nextLine();
         
         
-        System.out.println("Enter another occupation:\t");
+        System.out.print("Enter another occupation:\t");
         occupation2Solution = keyboard.nextLine();
         
-        System.out.println("Enter an boy's name:\t");
+        System.out.print("Enter an boy's name:\t");
         boysNameSolution = keyboard.nextLine();
         
-        System.out.println("Enter an man's name:\t");
+        System.out.print("Enter an man's name:\t");
         mansNameSolution = keyboard.nextLine();
         
         System.out.println("There once was a " + adjective1Solution + ", girl named " + girlsNameSolution + ",\n"
