@@ -33,5 +33,22 @@ public class Fraternity {
         else {
             System.out.println("Sorry you are not old endought to join a Faternity");
         }
+        
+        // Solution
+        int ageSolution;
+        char genderSolution;
+        
+        System.out.print("Enter you age?:\t");
+        ageSolution = keyboard.nextInt();
+        
+        System.out.print("Enter your gender:\t");
+        genderSolution = keyboard.next().charAt(0);
+        
+        if (ageSolution >= 19 && genderSolution == 'M') {
+            System.out.println("You can join the fraternity.");
+        }
+        else {
+            System.out.println("Sorry, you cannot join the fraternity.");
+        }
     }
 }
