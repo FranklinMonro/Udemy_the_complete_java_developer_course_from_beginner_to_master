@@ -11,12 +11,20 @@ package udemy_java_methods;
 public class CountDown {
     public static void main(String[] args) {
         countDownFrom(10);
+        coutUpTo(0, 10);
     }
     
     public static void countDownFrom(int num) {
         if(num >= 0) {
             System.out.println("num: " + num);
             countDownFrom(num - 1);
+        }
+    }
+    
+    public static void coutUpTo(int numFrom, int numTo) {
+        if (numFrom <= numTo) {
+            System.out.println("number: " + numFrom);
+            coutUpTo(numFrom + 1, numTo);
         }
     }
 }
