@@ -17,7 +17,12 @@ public class MethodOverloading {
         System.out.println("Result 2: " + result);
         
         result = getResult(5,"12");
-        System.out.println("Result 2: " + result);
+        System.out.println("Result 3: " + result);
+        
+//        result = Integer.parseInt(getResult("5", "10"));
+//        System.out.println("Result 4: " + result);
+
+        System.out.println("getResult: " + getResult("Franco", "Groenewald"));
     }
     
     public static int getResult(int num) {
@@ -30,5 +35,15 @@ public class MethodOverloading {
     
     public static int getResult(int num1, String value) {
         return num1 * Integer.parseInt(value);
+    }
+    
+    // challenge
+//    public static String getResult(String value1, String value2) {
+//        return value1 + value2;
+//    }
+    
+    // solution
+    public static String getResult(String str1, String str2) {
+        return str1 + " " + str2;
     }
 }
